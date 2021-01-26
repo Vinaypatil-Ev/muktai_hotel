@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MUKTAI HOTEL</string>
+    <string name="bank_name">MUKTAI HOTEL</string>
+    <string name="todo">TODO</string>
+    <string name="account_balance">Account Balance</string>
+    <string name="send_money">Send money</string>
+    <string name="account_info">Account Info</string>
+    <string name="upi">UPI</string>
+
+    <string name="menu">Menu</string>
+    <string name="order">Order</string>
+    <string name="services">Services</string>
+    <string name="hall_book">Hall Book</string>
+    <dimen name="btn_text_size">18sp</dimen>
+    <dimen name="name_padd">4pt</dimen>
+</resources>

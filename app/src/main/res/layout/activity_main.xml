@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/father"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10pt"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="117dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@mipmap/banklogo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="251dp"
+            android:layout_height="118dp"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:text="@string/bank_name"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:layout_marginBottom="10pt"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2pt"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="2pt"
+            android:text="@string/menu"
+            android:textColor="#000000"
+            android:textSize="@dimen/btn_text_size"
+            android:textStyle="bold"
+            app:drawableTopCompat="@drawable/ic_menu" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2pt"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="2pt"
+            android:text="@string/order"
+            android:textColor="#000000"
+            android:textSize="@dimen/btn_text_size"
+            android:textStyle="bold"
+            app:drawableTopCompat="@drawable/ic_order2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:layout_marginBottom="10pt"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2pt"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="2pt"
+            android:text="@string/services"
+            android:textColor="#000000"
+            android:textSize="@dimen/btn_text_size"
+            android:textStyle="bold"
+            app:drawableTopCompat="@drawable/ic_food_oder" />
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2pt"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="2pt"
+            android:text="@string/hall_book"
+            android:textColor="#000000"
+            android:textSize="@dimen/btn_text_size"
+            android:textStyle="bold"
+            app:drawableTopCompat="@drawable/ic_hall2" />
+
+    </LinearLayout>
+
+</LinearLayout>
